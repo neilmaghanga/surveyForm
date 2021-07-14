@@ -7,6 +7,67 @@
     <title>Survey</title>
 </head>
 <body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description"></p>
+
+        <form action="" id="survey-form">
+            <label for="name">Name
+                <input id="name" type="text" placeholder="Enter name here">
+            </label>
+
+            <label for="email">Email
+                <input type="email" id="email" placeholder="Enter your email">
+            </label>
+
+            <label for="number">Age
+                <input type="number" id="number" placeholder="Enter your age" min="18" max="65">
+            </label>
+
+            <label for="dropdown">Choose your speciality:
+                <select name="dropdown" id="dropdown" >
+                    <option value="">Select one</option>
+                    <option value="engineer">Engineer</option>
+                    <option value="designer">Designer</option>
+                    <option value="marketer">Digital Marketer</option>
+                    <option value="sales">Sales Person</option>
+                </select>
+            </label>
+
+            <div id="radio">
+                <p>Select your gender:</p>
+                <label for="male">Male
+                    <input type="radio" id="male" name="gender" value="male">
+                </label>
+
+                <label for="female">Female
+                    <input type="radio" id="female" name="gender" value="female">
+                </label>
+            </div>
+
+            <div id="checkbox">
+                <p>Pick your interests:</p>
+                <label for="sports">Sports
+                    <input type="checkbox" id="sports" value="sports" name="interest">
+                </label>
+                <label for="fashion">Fashion
+                    <input type="checkbox" name="interest" id="fashion" value="fashion">
+                </label>
+                <label for="music">Music
+                    <input type="checkbox" name="interest" id="music" value="music">
+                </label>
+                <label for="movies">Movies
+                    <input type="checkbox" name="interest" id="movies" value="movies">
+                </label>
+                <label for="business">Business
+                    <input type="checkbox" name="interest" id="business" value="business">
+                </label>
+                <label for="spirituality">Spirituality
+                    <input type="checkbox" name="interest" id="spirituality" value="spirituality">
+                </label>
+            </div>
+        </form>
+    </main>
     
 </body>
 </html>
