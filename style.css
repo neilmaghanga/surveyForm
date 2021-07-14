@@ -3,7 +3,7 @@ body {
     height: 100vh;
     font-family: monospace, sans-serif;
     font-size: 16px;
-    background: linear-gradient(45deg, #474747, #000000);
+    background: #000000;
     color: #ffffff;
 }
 
@@ -11,6 +11,7 @@ h1 {
     font-size: 3em;
     text-align: center;
 }
+ 
 #description {
     font-size: 2em;
     text-align: center;
@@ -18,4 +19,6 @@ h1 {
 form {
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
+
 }
