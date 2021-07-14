@@ -12,20 +12,23 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">Fill in the form below for collaborations</p>
 
+        
+
         <form action="" id="survey-form">
+            <div id="questions">
             <label for="name">Name
                 <input id="name" type="text" placeholder="Enter name here">
-            </label>
+            </label><br><br>
 
             <label for="email">Email
                 <input type="email" id="email" placeholder="Enter your email">
-            </label>
+            </label><br><br>
 
             <label for="number">Age
                 <input type="number" id="number" placeholder="Enter your age" min="18" max="65">
-            </label>
+            </label><br><br>
 
-            <label for="dropdown">Choose your speciality:
+            <label for="dropdown">Choose your speciality:<br><br>
                 <select name="dropdown" id="dropdown" >
                     <option value="">Select one</option>
                     <option value="engineer">Engineer</option>
@@ -34,12 +37,14 @@
                     <option value="sales">Sales Person</option>
                 </select>
             </label>
+            </div>
+
 
             <div id="radio">
                 <h3>Select your gender:</h3>
                 <label for="male">Male
                     <input type="radio" id="male" name="gender" value="male">
-                </label>
+                </label><br><br>
 
                 <label for="female">Female
                     <input type="radio" id="female" name="gender" value="female">
@@ -50,30 +55,32 @@
                 <h3>Pick your interests:</h3>
                 <label for="sports">Sports
                     <input type="checkbox" id="sports" value="sports" name="interest">
-                </label>
+                </label><br><br>
                 <label for="fashion">Fashion
                     <input type="checkbox" name="interest" id="fashion" value="fashion">
-                </label>
+                </label><br><br>
                 <label for="music">Music
                     <input type="checkbox" name="interest" id="music" value="music">
-                </label>
+                </label><br><br>
                 <label for="movies">Movies
                     <input type="checkbox" name="interest" id="movies" value="movies">
-                </label>
+                </label><br><br>
                 <label for="business">Business
                     <input type="checkbox" name="interest" id="business" value="business">
-                </label>
+                </label><br><br>
                 <label for="spirituality">Spirituality
                     <input type="checkbox" name="interest" id="spirituality" value="spirituality">
-                </label>
+                </label><br><br>
             </div>
 
             <div id="textarea">
                 <h3>Comments or suggestions:</h3>
-                <textarea name="comments" id="textarea" cols="30" rows="10">Enter comments here...</textarea>
+                <textarea name="comments" id="textarea" cols="30" rows="10">Enter comments here...</textarea><br><br>
+
+                <input type="submit" id="submit">
             </div>
 
-            <input type="submit" id="submit">
+            
         </form>
     </main>
     
