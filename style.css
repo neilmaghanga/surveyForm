@@ -9,8 +9,9 @@ body {
 
 h1 {
     font-size: 3em;
+    text-align: center;
 }
 #description {
     font-size: 2em;
-
+    text-align: center;
 }
