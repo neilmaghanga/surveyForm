@@ -10,11 +10,13 @@ body {
 h1 {
     font-size: 3em;
     text-align: center;
+    text-transform: capitalize;
 }
  
 #description {
     font-size: 2em;
     text-align: center;
+    text-transform: capitalize;
 }
 form {
     display: flex;
@@ -25,4 +27,7 @@ form {
     border-radius: 0.1%;
     padding: 25px;
     margin: 25px;
+}
+h3 {
+    text-transform: capitalize;
 }
