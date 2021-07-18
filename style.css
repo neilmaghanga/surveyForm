@@ -30,4 +30,10 @@ form {
 }
 h3 {
     text-transform: capitalize;
+    color: yellowgreen;
+}
+#submit {
+    color: #ffffff;
+    background-color: #0000df;
+    padding: 5px;
 }
